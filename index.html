@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>bot使用说明</title>
+    <meta name="generator" content="VuePress 1.9.8">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/docs/assets/css/0.styles.8bd43cb4.css" as="style"><link rel="preload" href="/docs/assets/js/app.fe4e9b8b.js" as="script"><link rel="preload" href="/docs/assets/js/2.980f3844.js" as="script"><link rel="preload" href="/docs/assets/js/7.a4352a82.js" as="script"><link rel="prefetch" href="/docs/assets/js/3.04605b86.js"><link rel="prefetch" href="/docs/assets/js/4.b7731bfc.js"><link rel="prefetch" href="/docs/assets/js/5.409bac28.js"><link rel="prefetch" href="/docs/assets/js/6.4d41e4ec.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.8bd43cb4.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" aria-current="page" class="home-link router-link-exact-active router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>bot使用说明</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/#杂项" class="sidebar-link">杂项</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/#检查bot是否在线" class="sidebar-link">检查bot是否在线</a></li><li class="sidebar-sub-header"><a href="/docs/#获取ip" class="sidebar-link">获取IP</a></li><li class="sidebar-sub-header"><a href="/docs/#执行cmd命令" class="sidebar-link">执行CMD命令</a></li><li class="sidebar-sub-header"><a href="/docs/#ocr文字识别" class="sidebar-link">OCR文字识别</a></li><li class="sidebar-sub-header"><a href="/docs/#获取课程表" class="sidebar-link">获取课程表</a></li></ul></li><li><a href="/docs/#ai聊天" class="sidebar-link">AI聊天</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/#chatgpt-非官方接口-无账号限制" class="sidebar-link">ChatGPT（非官方接口）（无账号限制）</a></li><li class="sidebar-sub-header"><a href="/docs/#bingai" class="sidebar-link">BingAI</a></li></ul></li><li><a href="/docs/#ai绘画-无账号限制" class="sidebar-link">AI绘画（无账号限制）</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/#文生图" class="sidebar-link">文生图</a></li><li class="sidebar-sub-header"><a href="/docs/#获取采样器列表" class="sidebar-link">获取采样器列表</a></li><li class="sidebar-sub-header"><a href="/docs/#修改采样器参数" class="sidebar-link">修改采样器参数</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="bot使用说明"><a href="#bot使用说明" class="header-anchor">#</a> bot使用说明</h1> <div class="custom-block warning"><p class="custom-block-title">注意</p> <p>若无特殊说明，则仅限<strong>授权账号</strong>使用</p></div> <h2 id="杂项"><a href="#杂项" class="header-anchor">#</a> 杂项</h2> <h3 id="检查bot是否在线"><a href="#检查bot是否在线" class="header-anchor">#</a> 检查bot是否在线</h3> <p>输入如下命令，若有消息回复，则bot正常运行（无账号限制）</p> <div class="language- extra-class"><pre><code>/ping
+</code></pre></div><h3 id="获取ip"><a href="#获取ip" class="header-anchor">#</a> 获取IP</h3> <p>使用如下命令获取路由器内网IPv4以及IPv6(若连接公网则可获得公网IP)</p> <div class="language- extra-class"><pre><code>/ipconfig
+</code></pre></div><h3 id="执行cmd命令"><a href="#执行cmd命令" class="header-anchor">#</a> 执行CMD命令</h3> <p>使用如下命令控制宿主机的CMD命令行</p> <div class="language- extra-class"><pre><code>/cmd &lt;需要执行的命令&gt;
+</code></pre></div><p>例如：</p> <div class="language- extra-class"><pre><code>/cmd ping 127.0.0.1
+</code></pre></div><h3 id="ocr文字识别"><a href="#ocr文字识别" class="header-anchor">#</a> OCR文字识别</h3> <p>使用如下命令获取图片中的文字（无账号限制）</p> <div class="language- extra-class"><pre><code>/ocr [图片]
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">提示</p> <p>此功能依赖于百度文字识别api</p></div> <h3 id="获取课程表"><a href="#获取课程表" class="header-anchor">#</a> 获取课程表</h3> <p>使用此功能前需要将教务网的课程表数据以json格式存储在相应文件内</p> <p>获取n天后的课程表，不加天数默认为当天</p> <p>指令如下：</p> <div class="language- extra-class"><pre><code>/class &lt;n&gt;
+</code></pre></div><p>例如：获取当天课程表</p> <div class="language- extra-class"><pre><code>/class
+</code></pre></div><p>获取2天后的课程表</p> <div class="language- extra-class"><pre><code>/class 2
+</code></pre></div><p>获取3天前的课程表</p> <div class="language- extra-class"><pre><code>/class -3
+</code></pre></div><h2 id="ai聊天"><a href="#ai聊天" class="header-anchor">#</a> AI聊天</h2> <h3 id="chatgpt-非官方接口-无账号限制"><a href="#chatgpt-非官方接口-无账号限制" class="header-anchor">#</a> ChatGPT（非官方接口）（无账号限制）</h3> <p>使用下面的命令与ChatGPT对话</p> <div class="language- extra-class"><pre><code>/aichat &lt;你的内容&gt;
+</code></pre></div><p>例如：</p> <div class="language- extra-class"><pre><code>/aichat 你好，你叫什么名字
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">注意</p> <p>此功能不支持联系上下文</p></div> <h3 id="bingai"><a href="#bingai" class="header-anchor">#</a> BingAI</h3> <p>使用下面的命令与BingAI对话，若是首句则自动开启一轮对话</p> <div class="language- extra-class"><pre><code>/bing &lt;你的内容&gt;
+</code></pre></div><p>结束本轮对话：</p> <div class="language- extra-class"><pre><code>/bing 结束对话
+</code></pre></div><p>例如：</p> <div class="language- extra-class"><pre><code>user:
+/bing 你好，你可以做什么?
+bot:
+对话开始
+bot:
+(回复消息)
+
+user:
+/bing 好的，谢谢你
+bot:
+(回复消息)
+
+user:
+/bing 结束对话
+bot:
+对话已结束
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">注意</p> <p>新版必应一轮最多支持五次对话，24小时内最多50条对话</p></div> <h2 id="ai绘画-无账号限制"><a href="#ai绘画-无账号限制" class="header-anchor">#</a> AI绘画（无账号限制）</h2> <h3 id="文生图"><a href="#文生图" class="header-anchor">#</a> 文生图</h3> <p>使用如下命令获取一张AI生成的图片</p> <div class="language- extra-class"><pre><code>/draw &lt;steps&gt; &lt;prompt&gt; negative prompt:&lt;negative prompt&gt;
+</code></pre></div><table><thead><tr><th style="text-align:center;">参数</th> <th style="text-align:center;">含义</th> <th style="text-align:center;">数据类型</th></tr></thead> <tbody><tr><td style="text-align:center;">steps</td> <td style="text-align:center;">AI绘画迭代步数</td> <td style="text-align:center;">int(1-150)</td></tr> <tr><td style="text-align:center;">prompt</td> <td style="text-align:center;">正面tags</td> <td style="text-align:center;">str</td></tr> <tr><td style="text-align:center;">negative prompt</td> <td style="text-align:center;">负面tags</td> <td style="text-align:center;">str</td></tr></tbody></table> <div class="custom-block tip"><p class="custom-block-title">提示</p> <p>所有参数均为非必填，不填steps数据则默认20步，不填prompt自动留空</p></div> <div class="custom-block danger"><p class="custom-block-title">注意事项</p> <p>一定要在负面tags前加上“negative prompt”，否则会识别为正面tags</p></div> <p>使用例如下</p> <div class="language- extra-class"><pre><code>/draw 20 tree,cute dogs negative prompt:cats
+</code></pre></div><h3 id="获取采样器列表"><a href="#获取采样器列表" class="header-anchor">#</a> 获取采样器列表</h3> <p>使用如下命令获取获取采样器列表</p> <div class="language- extra-class"><pre><code>/samplerlist
+</code></pre></div><h3 id="修改采样器参数"><a href="#修改采样器参数" class="header-anchor">#</a> 修改采样器参数</h3> <p>使用如下命令修改所使用的采样器</p> <div class="language- extra-class"><pre><code>/samplerset &lt;采样器名称&gt;
+</code></pre></div><p>例如</p> <div class="language- extra-class"><pre><code>/samplerset Euler a
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.fe4e9b8b.js" defer></script><script src="/docs/assets/js/2.980f3844.js" defer></script><script src="/docs/assets/js/7.a4352a82.js" defer></script>
+  </body>
+</html>
